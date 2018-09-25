@@ -1,0 +1,1 @@
+windres -o fancontroller.syso fancontroller.rc && go build -ldflags "-H windowsgui"
